@@ -2,7 +2,7 @@ import React from "react"
 
 const Travel = ({destination, country, photo, distance}) => {
     return(
-    <travel>
+    <travel className="dd-travel">
         <ul>
             <li>{destination}</li>
             <li>{country}</li>
